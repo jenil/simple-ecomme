@@ -24,4 +24,12 @@ It is a simple PHP & MySQL application that I made as a college project. Hope yo
 4. Import the SQL dump from the `dump.sql` file.
 5. And you are ready to go! Hit URL to `/admin` and start adding products.
 
+---
+
+### Credits
+
+* Prof. Rupali Kale
+* Kunal Khona
+* My family and friends
+
 ### MIT Licensed
