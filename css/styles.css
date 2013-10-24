@@ -1,0 +1,128 @@
+/*
+author: Jenil Gogari
+        www.jgog.in
+*/
+body {
+	padding-top: 100px;
+}
+html,
+body {
+height: 100%;
+/* The html and body elements cannot have any padding or margin. */
+}
+
+/* Wrapper for page content to push down footer */
+.wrap {
+min-height: 100%;
+height: auto !important;
+height: 100%;
+/* Negative indent footer by it's height */
+margin: 0 auto -40px;
+padding: 0 0 40px;
+}
+
+/* Set the fixed height of the footer here */
+footer {
+height: 40px;
+background-color: #f5f5f5;
+}
+
+/* Lastly, apply responsive CSS fixes as necessary */
+@media (max-width: 767px) {
+#footer {
+  margin-left: -20px;
+  margin-right: -20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+}
+
+footer p{
+	text-align: center;
+	margin-top: 8px;
+}
+
+.form-signin {
+    max-width: 330px;
+    padding: 15px;
+    margin: 0 auto;
+}
+
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+    margin-bottom: 10px;
+}
+
+.form-signin .checkbox {
+    font-weight: normal;
+}
+
+.form-signin .form-control {
+    position: relative;
+    font-size: 16px;
+    height: auto;
+    padding: 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.form-signin .form-control:focus {
+    z-index: 2;
+}
+
+.form-signin input[type="text"] {
+    margin-bottom: -1px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.form-signin input[type="password"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+} 
+
+.carousel-caption, .icon-next, .icon-prev {
+    color: #333 !important;
+}
+
+.carousel-inner img {
+    margin: 0 auto;
+}
+
+.carousel-control {
+    background-image: none !important;
+}
+
+.carousel-indicators li {
+    border-color: #666;
+}
+
+.carousel-indicators li.active {
+    background-color: #666;
+}
+
+.carousel-indicators {
+    position: relative;
+    bottom: auto;
+    top: auto;
+    margin-top: 10px;
+}
+
+.carousel-caption {
+    position: relative;
+    top: auto;
+    left: auto;
+    right: auto;
+    bottom: auto;
+    padding-bottom: 0;
+    text-shadow: 0 0 0 transparent;
+}
+body.modal-open {
+    margin-right: 0;
+}
+
+.products-table tbody>tr>td{
+    vertical-align: middle;
+}
